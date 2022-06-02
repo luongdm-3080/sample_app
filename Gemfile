@@ -5,9 +5,12 @@ ruby "3.0.0"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 6.0.5"
+gem "rails-i18n"
+gem "config"
+gem "bootstrap-sass", "3.4.1"
 # Use mysql as the database for Active Record
 gem "mysql2", ">= 0.4.4"
-gem "rails-i18n"
+
 gem "puma", "~> 5.0"
 gem "config"
 gem "sass-rails", ">= 6"
