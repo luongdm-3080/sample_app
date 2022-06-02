@@ -63,6 +63,7 @@ vi:
     attributes:
       user:
         name: "Tên"
+        email: "Địa chỉ Email"
         password: "Mật khẩu"
         password_confirmation: "Mật khẩu xác nhận"
   sessions:
@@ -73,5 +74,6 @@ vi:
       email_label: "Email"
       new_question: "Người dùng mới?"
       password_label: "Mật khẩu"
+      remember_me: "Hãy ghi nhớ tôi với"
     create:
       failure_message: "Sai email hoặc mật khẩu rồi vui lòng thử lại"
