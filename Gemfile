@@ -12,7 +12,9 @@ gem "bootstrap-sass", "3.4.1"
 gem "mysql2", ">= 0.4.4"
 
 gem "puma", "~> 5.0"
-gem "config"
+
+gem "bcrypt", "3.1.13"
+
 gem "sass-rails", ">= 6"
 
 gem "webpacker", "~> 5.0"
