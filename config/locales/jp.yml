@@ -24,7 +24,7 @@ jp:
   static_pages:
     home:
       title: "ホームページ"
-      welcome: "Welcome to Sample App"
+      welcome: "サンプルアプリへようこそ"
       first_intro: "これはのホームページです"
       second_intro: "サンプルアプリケーション"
       sign_up: "すぐサインアップ！"
@@ -61,8 +61,9 @@ jp:
       first_intro: "これは、新規ユーザーのサインアップページになります。"
       submit: "アカウントを作る"
     create:
-      success_message: "Welcome to the Sample App!"
+      success_message: "サンプルアプリへようこそ!"
       failure_message: "サインアップに失敗しました！"
+      mail_activation_message: "メールをチェックしてアカウントを有効にしてください."
     update:
       edit_success_message: "プロフィール更新済み"
       edit_failure_message: "プロファイルの更新に失敗しました"
@@ -114,3 +115,14 @@ jp:
       remember_me: "このコンピューターで私を覚えておいてください"
     create:
       failure_message: "メールアドレスまたはパスワードが間違っています。もう一度お試しください"
+  account_activations:
+      edit:
+        success_message: "アカウントが有効になりました！"
+        failure_message: "無効なアクティベーションリンク"
+
+  user_mailer:
+    account_activation:
+      subject: "アカウント開設"
+      greeting: "こんにちは"
+      body: "サンプルアプリへようこそ! 以下のリンクをクリックして、アカウントをアクティブ化してください:"
+      activate_link: "活性化"
