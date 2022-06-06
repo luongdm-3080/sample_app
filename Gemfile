@@ -7,9 +7,9 @@ ruby "3.0.0"
 gem "rails", "~> 6.0.5"
 # Use mysql as the database for Active Record
 gem "mysql2", ">= 0.4.4"
-
+gem "rails-i18n"
 gem "puma", "~> 5.0"
-
+gem "config"
 gem "sass-rails", ">= 6"
 
 gem "webpacker", "~> 5.0"
