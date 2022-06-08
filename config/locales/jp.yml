@@ -41,7 +41,40 @@ jp:
       second_intro: "このサンプルアプリのヘルプを取得するには、を参照してください。"
       book_link: "Ruby on Railsチュートリアルブック"
   users:
+    not_found: "ユーザーが見つかりません"
     new:
       title: "サインアップ"
       welcome: "サインアップ"
       first_intro: "これは、新規ユーザーのサインアップページになります。"
+      submit: "アカウントを作る"
+    create:
+      success_message: "Welcome to the Sample App!"
+      failure_message: "サインアップに失敗しました！"
+  shared:
+    error_messages:
+      prefix: "フォームには %{err_count} が含まれています"
+      error: "エラー"
+  activerecord:
+    attributes:
+      user:
+        name: "名前"
+        email: "メール"
+        password: "パスワード"
+        password_confirmation: "パスワードの確認"
+    errors:
+      models:
+        user:
+          attributes:
+            name:
+              blank: "空白のままにすることはできません"
+              too_long: "50文字以内"
+            email:
+              blank: "空白のままにすることはできません"
+              too_long: "255文字以内"
+              invalid: "間違ったフォーマット"
+              taken: "使用済み"
+            password:
+              blank: "空白のままにすることはできません!"
+              too_short: "最低6文字!"
+            password_confirmation:
+              confirmation: "一致していません!"
