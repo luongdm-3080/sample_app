@@ -8,6 +8,11 @@ vi:
       home: "Trang chủ"
       help: "Trợ giúp"
       log_in: "Đăng nhập"
+      users: "Người dùng"
+      account: "Account"
+      profile: "Hồ sơ"
+      settings: "Cài đặt"
+      log_out: "Đăng xuất"
     footer:
       tutorial_author: "bởi Michael Hartl"
       about: "Thông tin"
@@ -60,3 +65,13 @@ vi:
         name: "Tên"
         password: "Mật khẩu"
         password_confirmation: "Mật khẩu xác nhận"
+  sessions:
+    new:
+      title: "Đăng nhập"
+      welcome: "Đăng nhập"
+      submit: "Đăng nhập"
+      email_label: "Email"
+      new_question: "Người dùng mới?"
+      password_label: "Mật khẩu"
+    create:
+      failure_message: "Sai email hoặc mật khẩu rồi vui lòng thử lại"

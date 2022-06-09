@@ -8,6 +8,11 @@ jp:
       home: "ホームページ"
       help: "ヘルプ"
       log_in: "ログイン"
+      users: "ユーザー"
+      account: "アカウント"
+      profile: "プロフィール"
+      settings: "設定"
+      log_out: "ログアウト"
     footer:
       tutorial_author: "by Michael Hartl"
       about: "私について"
@@ -78,3 +83,13 @@ jp:
               too_short: "最低6文字!"
             password_confirmation:
               confirmation: "一致していません!"
+  sessions:
+    new:
+      title: "ログイン"
+      welcome: "ログイン"
+      submit: "ログイン"
+      email_label: "メール"
+      new_question: "新しいユーザー？"
+      password_label: "パスワード"
+    create:
+      failure_message: "メールアドレスまたはパスワードが間違っています。もう一度お試しください"
