@@ -10,7 +10,10 @@ class User < ApplicationRecord
             format: {with: VALID_EMAIL_REGEX},
             uniqueness: true
   validates :password, presence: true,
-            length: {minimum: Settings.digits.length_password_min_6}
+            length: {minimum: Settings.digits.length_password_min_6},
+            allow_nil: true
+
+  scope :sort_name, ->{order :name}
 
   before_save :downcase_email
 

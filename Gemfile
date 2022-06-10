@@ -23,10 +23,15 @@ gem "turbolinks", "~> 5"
 
 gem "jbuilder", "~> 2.7"
 
+gem "faker"
+
+gem "pagy"
+
 gem "bootsnap", ">= 1.4.4", require: false
 
+
 group :development, :test do
-  # Call "byebug" anywhere in the code to stop execution and get a debugger console
+  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem "pry", "~> 0.14.0"
   gem "rubocop", "~> 1.26", require: false
   gem "rubocop-checkstyle_formatter", require: false
