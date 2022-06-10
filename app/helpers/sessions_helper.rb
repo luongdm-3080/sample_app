@@ -15,7 +15,7 @@ module SessionsHelper
 
     @current_user ||= User.find_by id: user_id
 
-    log_in @current_user if @current_user&.authenticated? token
+    log_in @current_user if @current_user&.authenticated?(:remember, token)
 
     @current_user
   end

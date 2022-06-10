@@ -74,6 +74,7 @@ en:
     create:
       success_message: "Welcome to the Sample App!"
       failure_message: "Sign up failed!"
+      mail_activation_message: "Please check your email to activate your account."
 
     update:
       edit_success_message: "Profile updated"
@@ -100,3 +101,16 @@ en:
       remember_me: "Remember me on this computer"
     create:
       failure_message: "Invalid email/password combination"
+      unactivated_message: "Account not activated. Check your email for the activation link."
+
+  account_activations:
+      edit:
+        success_message: "Account activated!"
+        failure_message: "Invalid activation link"
+
+  user_mailer:
+    account_activation:
+      subject: "Account activation"
+      greeting: "Hi"
+      body: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate_link: "Activate"
