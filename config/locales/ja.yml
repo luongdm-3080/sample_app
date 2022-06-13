@@ -1,4 +1,4 @@
-jp:
+ja:
   base_title: "Ruby on Rails チュートリアルサンプルアプリ"
   rails_tutorial_name: "The Ruby on Rails チュートリアル"
   ruby_on_rails: "Ruby on Rails"
@@ -20,7 +20,7 @@ jp:
       news: "ニュース"
       en: "英語"
       vi: "ベトナム語"
-      jp: "日本"
+      ja: "日本"
   static_pages:
     home:
       title: "ホームページ"
@@ -28,6 +28,7 @@ jp:
       first_intro: "これはのホームページです"
       second_intro: "サンプルアプリケーション"
       sign_up: "すぐサインアップ！"
+      feed_title: "フィードタイトル"
     about:
       title: "私について"
       welcome: "私について"
@@ -52,6 +53,9 @@ jp:
     index:
       title: "全てのユーザー"
       welcome: "全てのユーザー"
+    show:
+      micropost: "マイクロポスト"
+      no_micropost: "おっとっと！ マイクロポストはまだ投稿されていません！"
     user:
       delete: "消す"
       delete_confirmation: "確信してるの?"
@@ -75,6 +79,16 @@ jp:
       welcome: "プロファイルを更新する"
       submit: "変更内容を保存"
       change: "変化する"
+    follow:
+      follow: "フォロー"
+    unfollow:
+      unfollow: "フォロー解除"
+  followings:
+    index:
+      title: "フォロー"
+  followers:
+    index:
+      title: "フォロワー"
 
   shared:
     error_messages:
@@ -86,6 +100,9 @@ jp:
     user_info:
       view_profile: "プロフィールを見る"
       post_singular: "マイクロポスト"
+    stats:
+      following: "フォローアップ"
+      followers: "フォロワー"
   activerecord:
     attributes:
       user:
@@ -158,6 +175,7 @@ jp:
       something_wrong: "何かがうまくいかなかった。 もう一度やり直してください"
     expired_reset: "パスワードのリセットの有効期限が切れました"
     invalid_link: "無効なリンク"
+
   microposts:
     create:
       success: "マイクロポストが作成されました"
