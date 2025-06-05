@@ -20,7 +20,7 @@ vi:
       news: "Tin tức"
       en: "Tiếng Anh"
       vi: "Tiếng Việt"
-      jp: "Tiếng Nhật"
+      ja: "Tiếng Nhật"
   static_pages:
     home:
       title: "Trang chủ"
@@ -28,6 +28,7 @@ vi:
       first_intro: "Đây là trang chủ Ứng dụng mẫu của"
       second_intro: ""
       sign_up: "Đăng ký ngay nào!"
+      feed_title: "Trạng thái "
     about:
       title: "Thông tin"
       welcome: "Thông tin"
@@ -55,6 +56,9 @@ vi:
     user:
       delete: "Xóa bỏ"
       delete_confirmation: "Bạn chắc chắn muon?"
+    show:
+      micropost: "Microposts"
+      no_micropost: "Ối! Không có micropost nào đã được đăng!"
     new:
       title: "Đăng ký"
       welcome: "Đăng ký"
@@ -75,6 +79,17 @@ vi:
       welcome: "Cập nhật hồ sơ của bạn"
       submit: "Lưu thay đổi"
       change: "Thay đổi"
+    follow:
+      follow: "Theo dõi"
+    unfollow:
+      unfollow: "Bỏ theo dõi"
+  followings:
+    index:
+      title: "Theo dõi"
+  followers:
+    index:
+      title: "Người theo dõi"
+
   shared:
     error_messages:
       prefix: "Bạn có %{err_count} "
@@ -85,6 +100,9 @@ vi:
     user_info:
       view_profile: "Xem hồ sơ của tôi"
       post_singular: "micropost"
+    stats:
+      following: "theo dõi"
+      followers: "người theo dõi"
   activerecord:
     attributes:
       user:

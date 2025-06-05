@@ -20,7 +20,7 @@ en:
       news: "News"
       en: "English"
       vi: "Vietnamese"
-      jp: "Japanese"
+      ja: "Japanese"
   static_pages:
     home:
       title: "Home"
@@ -28,6 +28,7 @@ en:
       first_intro: "This is the home page for"
       second_intro: "sample application"
       sign_up: "Sign up now!"
+      feed_title: "Feed Title"
     about:
       title: "About"
       welcome: "About"
@@ -78,12 +79,22 @@ en:
       success_message: "Welcome to the Sample App!"
       failure_message: "Sign up failed!"
       mail_activation_message: "Please check your email to activate your account."
-
+    show:
+      micropost: "Microposts"
+      no_micropost: "Oops! No micropost has been posted yet!"
     update:
       edit_success_message: "Profile updated"
       edit_failure_message: Profile update failed
-
-
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+  followings:
+    index:
+      title: "Following"
+  followers:
+    index:
+      title: "Followers"
 
   shared:
     error_messages:
@@ -95,6 +106,9 @@ en:
     user_info:
       view_profile: "View my profile"
       post_singular: "micropost"
+    stats:
+      following: "following"
+      followers: "followers"
   activerecord:
     attributes:
       user:
