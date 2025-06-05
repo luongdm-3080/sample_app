@@ -7,6 +7,7 @@ ruby "3.0.0"
 gem "rails", "~> 6.0.5"
 gem "rails-i18n"
 gem "config"
+gem "i18n-js"
 gem "bootstrap-sass", "3.4.1"
 # Use mysql as the database for Active Record
 gem "mysql2", ">= 0.4.4"
@@ -27,12 +28,21 @@ gem "faker"
 
 gem "pagy"
 
+gem "aws-sdk-s3", "1.46.0", require: false
+
+gem "active_storage_validations"
+
+gem "image_processing"
+
+gem "mini_magick"
+
 gem "figaro"
+
 gem "bootsnap", ">= 1.4.4", require: false
 
 
 group :development, :test do
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  # Call "byebug" anywhere in the code to stop execution and get a debugger console
   gem "pry", "~> 0.14.0"
   gem "rubocop", "~> 1.26", require: false
   gem "rubocop-checkstyle_formatter", require: false

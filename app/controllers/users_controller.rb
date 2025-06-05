@@ -8,7 +8,9 @@ class UsersController < ApplicationController
     @pagy, @users = pagy User.activated.sort_name
   end
 
-  def show; end
+  def show
+    @pagy, @microposts = pagy @user.microposts.newest
+  end
 
   def new
     @user = User.new
@@ -62,14 +64,6 @@ class UsersController < ApplicationController
 
     flash[:danger] = t ".not_found"
     redirect_to root_path
-  end
-
-  def logged_in_user
-    return if logged_in?
-
-    flash[:danger] = t ".not_logged"
-    store_location
-    redirect_to login_url
   end
 
   def user_correct

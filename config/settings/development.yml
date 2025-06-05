@@ -13,7 +13,8 @@ digits:
   length_name_max_50: 50
   length_email_max_255: 255
   length_password_min_6: 6
-  expired_reset_password_time: 1
+  expired_reset_password_time: 2
+  length_content_max_140: 1400
 regex:
   email: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/'
 
@@ -22,3 +23,9 @@ gravatar:
   default_size: 80
   size_view: 200
   url_gravatar: "https://gravatar.com/emails"
+
+image:
+  max_size: 5
+  accept_format: ["image/jpeg", "image/gif", "image/png"]
+  accept_format_html: "image/jpeg,image/gif,image/png"
+range_500: [500, 500]
